@@ -1,0 +1,199 @@
+@charset "UTF-8";
+
+/********
+SUB-TOP-S 
+*********/
+
+/* READER-S */
+input[type=text] {
+  height: 36px; padding: 0; top: 0; vertical-align: center;
+  background: #fff;
+  border: 1px solid #ccc; border-radius: 2px;
+  line-height: 36px; text-indent: 5px; font-size: 14px;
+}
+.reader-form table {
+  width: 1100px; margin: 0 auto;
+  border-top: 2px solid #ccc;
+}
+.reader-form table tbody { background-color: #fff;}
+.reader-form table tbody tr { 
+  width: 100%; padding: 30px 30px;
+  line-height: 30px;
+  border-bottom: 1px solid #ddd;
+}
+.reader-form table tbody tr th {
+  width: 175px;
+  font-size: 20px; text-align: center; color: #333; 
+}
+.reader-form table tbody tr td {
+  padding: 30px 30px;
+  text-align: left; color: #333; 
+}
+.reader-form table tbody tr td button { display: inline-block;
+  width: 115px;  height: 36px; margin-left: 15px; padding: 0 12px; vertical-align: middle;
+  line-height: 36px; color: #fff; font-size: 14px;
+  border: 1px solid #999; border-radius: 2px;
+  background-color: #999;
+}
+#hp {
+  width: 110px; height: 36px; 
+  line-height: 36px; color: #333; text-align: center;
+  border: 1px solid #ccc; border-radius: 2px;
+  background-color: #fff;
+}
+.reader .reader-box .btn-s { display: block;
+  margin: 40px auto 0; 
+  color: #fff;
+  background-color: #2471c8;
+}
+/* READER-E */
+
+/********
+SUB-TOP-E 
+*********/
+
+
+/********
+SUB-FOOT-S 
+*********/
+/* SUB-FOOT-COMMON-S */
+.section { 
+  font-size: 14px; color: #333;
+}
+.privacy-box dl { margin-bottom: 60px;}
+.privacy-box dt {
+  margin: 35px 0 10px;
+  font-size: 20px; color: #333;
+}
+.privacy-box dd .information-txt {
+  margin: 20px 0 10px;
+  color: #333;
+}
+.privacy-box dd ul li {
+  margin-left: 12px;
+  text-indent: -12px;
+}
+.privacy-box dd ul li::before { content: ""; display: inline-block;
+  width: 3px; height: 3px; margin-right: 8px; vertical-align: middle;
+  background-color: #555;
+}
+.privacy-box .bottom-box {
+  padding: 30px 0 0;
+  text-align: right;
+  border-top: 1px solid #e5e5e5;
+}
+
+/* SUB-FOOT-COMMON-E */
+
+/* EMAIL-S */
+.email p { font-size: 14px; color: #333;}
+.email .email-box {
+  margin-top: 60px; padding-top: 30px;
+  text-align: right;
+  border-top: 1px solid #ddd;
+}
+/* EMAIL-E */
+
+/* ROW-S */
+.row p { display: block; 
+  margin-bottom: 15px;
+}
+/* ROW-E */
+
+/* CLOTH-S */
+.cloth-box dl dt { 
+  margin: 20px 0 0;
+  font-weight: 700; color: #2471c8;
+}
+.cloth-box dl dd { text-indent: 10px;}
+.cloth-box dl dd ul { text-indent: 25px;}
+.cloth-box dl dd table { width: 1100px;}
+.cloth-box dl dd table thead tr th {
+  text-align: center;
+  background-color: #f2f2f2;
+  border: 1px solid #333;
+}
+.cloth-box dl dd table tbody tr td {
+  padding: 10px 10px;
+  border: 1px solid #333;
+}
+.cloth-box dl dd table tbody tr td ul li::before { content: ""; display: inline-block;
+  width: 3px; height: 3px; margin-right: 8px; vertical-align: middle;
+  background-color: #555;
+}
+.cloth-box dl dd .cloth-table tbody tr td { text-align: center; vertical-align: middle;}
+.cloth-box p { margin: 20px 0 0;}
+/* CLOTH-E */
+
+/* FOUNDATION-S */
+select { width: 216px; height: 36px; margin-right: 10px;}
+input[type=checkbox] { margin: 0 8px;}
+.foundation-box h3 { 
+  margin-bottom: 30px;
+  font-weight: 300; font-size: 34px; text-align: center;
+}
+.foundation-box h3 span { color: #2471c8;}
+.foundation-form { width: 1100px;}
+.foundation-form table { 
+  width: 1100px; margin: 0 auto;
+  border-top: 2px solid #ccc;
+}
+.foundation-form table tbody tr {   
+  width: 100%; padding: 30px 30px;
+  line-height: 30px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+.foundation-form table tbody tr th {
+  width: 175px; 
+  font-weight: 400; font-size: 20px; color: #333;  
+}
+.foundation-form table tbody tr td {
+  padding: 30px 0 30px 20px;
+  text-align: left; color: #333; 
+}
+.foundation-form table tbody tr td p { 
+  margin-top: 5px;
+  font-size: 13px; color: #959595;
+}
+.foundation-form table tbody tr td span { margin-left: 15px;}
+.foundation-form table tbody tr td span label + label { margin-left: 10px;}
+.foundation-form table tbody tr td .check { float: left;
+  width: 33.3%; margin-bottom: 10px;
+}
+.foundation-form .cont-box { 
+  width: 100%; padding: 30px 30px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  position: relative;
+}
+.foundation-form .cont-box h4 { 
+  margin-bottom: 10px;
+  font-weight: 400; font-size: 20px;
+}
+.foundation-form .cont-box label {
+  position: absolute; right: 30px; top: 30px;
+}
+.foundation-form .cont-box .cont { overflow-y: scroll;
+  height: 180px; padding: 15px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+}
+.btn-ss-box {
+  width: 100%; margin-top: 30px; text-align: center;
+}
+.btn-ss-box .btn-ss { display: inline-block;
+  height: 50px; padding: 0 56px;
+  color: #333; line-height: 50px;
+  border: 1px solid #333; border-radius: 25px;
+}
+.btn-ss-box .btn-ss:last-of-type {
+  color: #fff;
+  border: 1px solid #2471c8;
+  background-color: #2471c8;
+}
+/* FOUNDATION-E */
+/********
+SUB-FOOT-E 
+*********/

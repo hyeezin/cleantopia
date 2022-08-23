@@ -1,0 +1,211 @@
+@charset "UTF-8";
+
+/* SUB2-COMMON-S */
+/* .box2-txt { 
+  padding: 23px 0;
+  text-indent: 30px;
+  border: 1px solid #ddd; border-top: 0; border-radius: 0 0 3px 3px;
+  background-color: #fff;
+}
+.box2-txt strong { display: block;
+  margin-bottom: 7px;
+  font-size: 30px; color: #333; line-height: 36px;
+}
+.box2-txt p { font-size: 16px; color: #777; line-height: 20px;}
+.box2-txt p span { color: #2471c8;}
+.box2-txt p:nth-of-type(n+2):nth-of-type(-n+3)::before {content: ""; display: inline-block;
+  width: 3px; height: 3px; margin-right: 8px; vertical-align: middle;
+  background-color: #555;
+} */
+/* SUB2-COMMON-E */
+
+/**********
+SUB2-1 -S
+**********/
+
+/* COIN-SELF-S */
+.coin-self { margin-top: 60px;}
+.coin-self h3 { display: inline-block;
+  font-weight: 500; font-size: 26px; color: #333; line-height: 36px;
+}
+.coin-self .coin-self-box { float: right;
+ padding: 0 15px; margin-bottom: 31px;
+}
+.coin-self .coin-self-box li { float: left;
+  width: 220px; 
+  text-align: center;
+  position: relative;
+}
+.coin-self .coin-self-box li:before { content: ""; display: block;
+  width: 220px; height: 220px;
+  background: url(/img/sub/laun_cy.png) no-repeat;
+  position: absolute; left: 0; top: 0; bottom: 0;
+}
+.coin-self .coin-self-box li + li { margin-left: 71px;}
+.coin-self .coin-self-box li strong { display: block;
+  padding: 75px 0; margin-bottom: 20px;
+  font-size: 20px; color: #555; text-align: center; line-height: 25px;
+}
+.coin-self .coin-self-box li strong::before { content: ""; display: block;
+  width: 47px; height: 28px; margin: 0 auto 13px;  
+}
+.coin-self .coin-self-box li:nth-child(1) strong::before { background: url(/img/sub/self_icon0101.png) no-repeat;}
+.coin-self .coin-self-box li:nth-child(2) strong::before { background: url(/img/sub/self_icon0102.png) no-repeat;}
+.coin-self .coin-self-box li:nth-child(3) strong::before { background: url(/img/sub/self_icon0103.png) no-repeat;}
+.coin-self .coin-self-box li em { letter-spacing: -1.8px; font-size: 16px; line-height: 24px;}
+.coin-self figure { float: right;
+  margin: 0 auto;
+}
+
+/* COIN-SELF-E */
+
+/* COIN-WASH-S */
+.coin-wash {margin-top: 48px;}
+.coin-wash h3 { display: inline-block;
+  font-weight: 500; font-size: 26px; color: #333; line-height: 35px;
+}
+.coin-wash .coin-wash-box { float: right;}
+.coin-wash .coin-wash-box li { float: left;
+  width: 405px; 
+}
+.coin-wash .coin-wash-box li:first-child { margin-right: 18px;}
+.coin-wash .coin-wash-box li:before { content: ""; display: block;
+  width: 405px; height: 200px;
+}
+.coin-wash .coin-wash-box li:first-child:before { 
+  background: url(/img/sub/self-0301.jpg) no-repeat;
+}
+.coin-wash .coin-wash-box li:last-child:before { 
+  background: url(/img/sub/self-0302.jpg) no-repeat;
+}
+.coin-wash .coin-wash-box li strong { display: block; 
+  margin: 24px 0 6px;
+  font-size: 20px; line-height: 29px;
+}
+.coin-wash .coin-wash-box li em { letter-spacing: -1.8px; font-size: 16px;}
+/* COIN-WASH-E */
+
+/* COIN-BANNER-S */
+.coin-banner { 
+  width: 100%; min-width: 1100px; margin-top: 101px; padding: 60px 0 65px;
+  font-size: 25px; text-align: center; color: #333; line-height: 33px;
+  background: url(/img/sub/self-0405.jpg) no-repeat center;
+}
+.coin-banner p span { color: #2471c8;}
+/* COIN-BANNER-E */
+
+/* COIN-SLIDE-S */
+.coin-slide { 
+  padding: 124px 0 100px; 
+  text-align: center;
+}
+.coin-slide .coin-header { 
+  margin-bottom: 13px;
+  font-weight: 300; font-size: 34px; color: #333; text-align: center; line-height: 50px;
+}
+.coin-slide .coin-desc { 
+  margin-bottom: 63px;
+  font-size: 16px; line-height: 20px;
+}
+.coin .visual.swiper { height: 445px;}
+.swiper-wrapper { width: 263px;}
+.swiper-slide { 
+  height: 220px;  padding-top: 220px;
+  background-repeat: no-repeat;
+}
+.slide1 { background-image: url(/img/sub/self-0501.jpg);}
+.slide2 { background-image: url(/img/sub/self-0502.jpg);}
+.slide3 { background-image: url(/img/sub/self-0503.jpg);}
+.slide4 { background-image: url(/img/sub/self-0504.jpg);}
+.swiper-slide .swiper-txt {
+  padding: 36px 40px;
+  text-align: center;
+  background-color: #fff;
+}
+.slide4 .swiper-txt { padding: 36px 10px;}
+.swiper-slide .swiper-txt p { 
+  margin-bottom: 74px;  
+  font-size: 22px; line-height: 32px;
+}
+.slide4 .swiper-txt p { line-height: 66px;}
+.swiper-slide .swiper-txt .slide-more { 
+  font-size: 16px; color: #555;
+  border-bottom: 1px solid #555;
+}
+.slide1:hover .swiper-txt {
+  color: #fff;
+  background-color: #b7e0b2;
+}
+.slide2:hover .swiper-txt {
+  color: #fff;
+  background-color: #b7e0b2;
+}
+.slide3:hover .swiper-txt {
+  color: #fff;
+  background-color: #b7e0b2;
+}
+.slide4:hover .swiper-txt {
+  color: #fff;
+  background-color: #b7e0b2;
+}
+/* COIN-SLIDE-E */
+
+/**********
+SUB2-1 -E
+**********/
+
+/**********
+SUB2-2 -S
+**********/
+
+/* PROCURACY-SERVICE-S */
+.procuracy-service { margin-top: 60px;}
+.procuracy-service-box h3 { display: inline-block;
+  font-weight: 500; font-size: 26px; color: #333; line-height: 36px;
+}
+.procuracy-service .procuracy-service-box ul { float: right;}
+.procuracy-service .procuracy-service-box .procuracy-service-box-txt {
+  margin-bottom: 31px;
+  font-size: 16px; color: #333; line-height: 24px;
+}
+.procuracy-service .procuracy-service-box .procuracy-service-box-txt p::before { content: ""; display: inline-block;
+  width: 3px; height: 3px; margin-right: 8px; vertical-align: middle;
+  background-color: #555;
+}
+.procuracy-service .procuracy-service-box .procuracy-service-box-list li { float: left;
+  width: 220px; margin-left: 71px;
+  text-align: center;
+  position: relative;
+}
+.procuracy-service .procuracy-service-box .procuracy-service-box-list li:before { content: ""; display: block;
+  width: 220px; height: 220px;
+  background: url(/img/sub/laun_cy.png) no-repeat;
+  position: absolute; left: 0; top: 0; bottom: 0;
+}
+.procuracy-service .procuracy-service-box .procuracy-service-box-list li strong { display: block;
+  padding: 73px 0; margin-bottom: 23px;
+  font-size: 20px; color: #555; text-align: center; line-height: 25px;
+}
+.procuracy-service .procuracy-service-box .procuracy-service-box-list li strong::before { content: ""; display: block;
+  width: 36px; height: 30px; margin: 0 auto 17px;  
+}
+.procuracy-service .procuracy-service-box .procuracy-service-box-list li:nth-child(1) strong::before { background: url(/img/sub/service_icon0101.png) no-repeat;}
+.procuracy-service .procuracy-service-box .procuracy-service-box-list li:nth-child(2) strong::before { background: url(/img/sub/service_icon0102.png) no-repeat;}
+.procuracy-service .procuracy-service-box .procuracy-service-box-list li:nth-child(3) strong::before { background: url(/img/sub/service_icon0103.png) no-repeat;}
+.procuracy-service .procuracy-service-box .procuracy-service-box-list li em { letter-spacing: -1.8px; font-size: 16px; line-height: 24px;}
+.procuracy-service .procuracy-service-box-btn { float: right;
+  width: 100%; height: 50px; margin-top: 72px;
+  text-align: center;
+}
+.procuracy-service .procuracy-service-box-btn a { display: inline-block;
+  width: 324px; height: 50px;
+  font-size: 16px; color: #2471c8; line-height: 50px;
+  border: 1px solid #2471c8; border-radius: 25px;
+}
+/* PROCURACY-SERVICE-E */
+
+/**********
+SUB2-2 -E
+**********/
+
+

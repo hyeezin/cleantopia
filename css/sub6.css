@@ -1,0 +1,206 @@
+@charset "UTF-8";
+
+/* SUB6-COMMON-S */
+.summary.box { padding: 60px 0 0;}
+.desc { font-size: 16px; line-height: 24px; text-align: center;}
+.desc span { color: #2471c8;}
+.desc em { color: #9abd67;}
+/* SUB6-COMMON-E */
+
+/**********
+SUB6-1 -S
+**********/
+
+/* CEO-S*/
+.ceo .visual {
+  background: url(/img/sub/ceo-tit.jpg) no-repeat center center;
+}
+/* CEO-E*/
+
+
+/* CEO-TEXT-S */
+.ceo-txt { padding-bottom: 200px;}
+.ceo-txt .ceo-box-txt li { margin-bottom: 35px;}
+/* CEO-TEXT-E */
+
+/**********
+SUB6-1 -E
+**********/
+
+/**********
+SUB6-2 -S
+**********/
+.summary .visual { background: url(/img/sub/summary-tit.jpg) no-repeat center center;}
+
+/* SUMMARY-INTRO-S */
+.summary-intro {
+  padding-top: 60px; 
+  background-color: #f5f6fa;
+}
+.summary-intro .summary-intro-box > li { 
+  margin-bottom: 35px;
+  font: 16px; line-height: 24px;
+}
+.summary-intro .summary-intro-box .summary-intro-box-pi { height: 253px; padding: 21px 0;}
+.summary-intro .summary-intro-box .summary-intro-box-pi li { float: left;
+  width: 210px;
+  text-align: center;
+}
+.summary-intro .summary-intro-box .summary-intro-box-pi li + li { margin-left: 70px;}
+.summary-intro .summary-intro-box .summary-intro-box-pi li::before { content: ""; display: block;
+  width: 150px; height: 150px; margin: 0 auto 10px;
+}
+.summary-intro .summary-intro-box .summary-intro-box-pi li:nth-child(1)::before { background: url(/img/sub/summary_icon0101.png) no-repeat;}
+.summary-intro .summary-intro-box .summary-intro-box-pi li:nth-child(2)::before { background: url(/img/sub/summary_icon0102.png) no-repeat;}
+.summary-intro .summary-intro-box .summary-intro-box-pi li:nth-child(3)::before { background: url(/img/sub/summary_icon0103.png) no-repeat;}
+.summary-intro .summary-intro-box .summary-intro-box-pi li strong { display: block;
+  margin-bottom: 3px;
+  font-size: 20px; color: #333; line-height: 28px;
+}
+/* SUMMARY-INTRO-S */
+
+/**********
+SUB6-2 -E
+**********/
+/**********
+SUB6-3 -S
+**********/
+/* SUMMARY-WORKPLACE-S */
+.summary-workplace { 
+  padding-top: 120px;
+  background-color: #f5f6fa;
+}
+.summary-workplace ul { height: 616px; margin: 42px 0 90px; padding: 0 66px;}
+.summary-workplace ul li { float: left;
+  width: 300px; margin-bottom: 20px;
+}
+.summary-workplace ul li + li { margin-left: 34px;}
+.summary-workplace ul li:nth-child(4) { margin-left: 0;}
+.summary-workplace ul li figure { display: inline-block;}
+.summary-workplace ul li figure img {}
+.summary-workplace ul li .summary-workplace-txt {}
+.summary-workplace ul li .summary-workplace-txt strong {}
+.summary-workplace ul li .summary-workplace-txt p { font-size: 13px; letter-spacing: -1.0px;}
+/* SUMMARY-WORKPLACE-E */
+
+/* SUMMARY-CURRENT-S */
+.summary-current { 
+  width: 100%; min-width: 1100px; height: 679px; padding: 72px 0 0 0;
+  background: url(/img/sub/summary-03.jpg) no-repeat center center;
+  border-top: 2px solid #ddd;
+}
+.summary-current .header { margin-bottom: 13px;}
+/* SUMMARY-CURRENT-E */
+
+/* SUMMARY-HISTORY-S */
+.summary-history { margin-top: 76px;}
+.summary-history h3 { margin-bottom: 13px;}
+/* SUMMARY-HISTORY-E */
+
+
+/* SUMMARY-PRIZE-S */
+.summary .box { background-color: #fff;}
+.summary-prize { 
+  padding: 76px 0 100px;
+  background-color: #fff;
+  border-top: 1px solid #ddd;
+}
+.summary-prize h3 { margin-bottom: 13px;}
+.summary-prize ul { height: 434px; margin-top: 82px;}
+.summary-prize ul li { float: left;
+  width: 145px; height: 207px;
+  font-size: 14px; text-align: center;
+}
+.summary-prize ul li + li { margin-left: 129px;}
+.summary-prize ul li:nth-child(5) { margin-left: 0;}
+.summary-prize ul li::before { content: ""; display: block;
+  width: 129px; height: 157px; margin: 0 auto 9px;
+}
+.summary-prize ul li:nth-child(1):before { background: url(/img/sub/summary-0501.jpg) no-repeat;}
+.summary-prize ul li:nth-child(2):before { background: url(/img/sub/summary-0502.jpg) no-repeat;}
+.summary-prize ul li:nth-child(3):before { background: url(/img/sub/summary-0503.jpg) no-repeat;}
+.summary-prize ul li:nth-child(4):before { background: url(/img/sub/summary-0504.jpg) no-repeat;}
+.summary-prize ul li:nth-child(5):before { background: url(/img/sub/summary-0505.jpg) no-repeat;}
+.summary-prize ul li:nth-child(6):before { background: url(/img/sub/summary-0506.jpg) no-repeat;}
+.summary-prize ul li:nth-child(7):before { background: url(/img/sub/summary-0507.jpg) no-repeat;}
+.summary-prize ul li:nth-child(8):before { background: url(/img/sub/summary-0508.jpg) no-repeat;}
+/* SUMMARY-PRIZE-E */
+
+/**********
+SUB6-3 -E
+**********/
+
+/**********
+SUB6-4 -S
+**********/
+
+/* SOCIAL-S */
+.social .visual {
+  background: url(/img/sub/social-tit.jpeg) no-repeat center center;
+}
+/* SOCIAL-E */
+
+/* SOCIAL-CAMPAIN-S */
+.social-campain { margin-top: 40px;}
+/* SOCIAL-CAMPAIN-E */
+
+/**********
+SUB6-4 -E
+**********/
+/**********
+SUB6-5 -S
+**********/
+
+/**********
+SUB6-5 -E
+**********/
+
+
+/**********
+SUB6-6 -S
+**********/
+
+.road-box { float: right;
+  width: 830px;
+}
+.road-box figure { margin-bottom: 18px;}
+.road-box ul li { 
+  margin-bottom: 10px;
+  font-size: 16px; color: #333; line-height: 25px;
+}
+
+/* ROAD-S */
+.road-office {}
+.road-office h3::before { content: ""; display: block;  
+  width: 100%; min-width: 1100px; height: 870px; margin-bottom: 46px;
+  background: url(/img/sub/road-0101.jpeg) no-repeat center; background-size: 1100px 870px;
+}
+.road-office .road-office-box { padding-top: 18px;}
+.road-office .road-office-box .road-office-txt {
+  width: 318px; margin: 0 auto 40px;
+  font-size: 16px; color: #333; line-height: 25px; text-align: center;
+}
+.road-office .road-office-box .road-office-txt .road-office-txt-tel { height: 16px; margin: 23px auto 0;}
+.road-office .road-office-box .road-office-txt .road-office-txt-tel li { float: left;
+margin-right:10px;
+text-align: center; line-height: 16px;
+}
+.road-office .road-office-box .road-office-txt .road-office-txt-tel li:last-child { 
+  padding-left: 10px;
+  border-left: 1px solid #333;
+}
+/* ROAD-E */
+
+/* ROAD-PUBLIC-S */
+.road-public { margin-top: 60px;}
+/* ROAD-PUBLIC-E */
+
+/* ROAD-CAR-S */
+.road-car { margin-top: 60px;}
+
+/* ROAD-CAR-E */
+/**********
+SUB6-6 -E
+**********/
+
+
